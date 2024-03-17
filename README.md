@@ -1,5 +1,5 @@
 # Spotify Playlist Generator
-#### Video Demo: https://youtu.be/5fg0mRcgKJA(https://youtu.be/5fg0mRcgKJA)
+
 #### Description:
  Spotify Playlist Generator simplifies music discovery by enabling users to swiftly create customized and shareable Spotify playlists based on mood, genre, or artist preferences. This innovative solution combines ease-of-use, intelligent recommendations, and real-time collaboration features, offering a fresh perspective on digital entertainment. Dive into a richer audio experience with Spotify Playlist Generator at your fingertips.
 
