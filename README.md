@@ -44,13 +44,46 @@ pip install --user -r requirements.txt
 
 <a name="installation"></a>
 ## Installation
-1. Make a application at [https://developer.spotify.com](https://developer.spotify.com)
-2. Add a Redirect URI to the application and set is as `http://localhost:8000`
-3. Clone this repository
-4. Install all dependencies (`pip install -r requirements.txt`)
-5. Set two environment variables, `CLIENT_ID`, `CLIENT_SECRET`and `REDIRECT_URI`
-6. Authenticate by running `main.py`
-7. Run `main.py` to use
+
+### Step 1: Create a Spotify Application
+1. Go to the  [https://developer.spotify.com](https://developer.spotify.com)
+2. Log in with your Spotify account or sign up if you don't have one.
+3. Click on "Create an App" and fill in the required information to create your application.
+4. Once created, note down the Client ID and Client Secret. You'll need these later.
+
+### Step 2: Add Redirect URI
+1. In your Spotify application settings, add a Redirect URI and set it to `http://localhost:8000`
+2. Save your changes.
+   
+### Step 3: Clone the Repository
+1. Clone this repository
+   
+### Step 4: Install Dependencies
+1. Ensure you have Python 3.6 or above installed.
+2. Install all dependencies (`pip install -r requirements.txt`)
+3. Set two environment variables, `CLIENT_ID`, `CLIENT_SECRET`and `REDIRECT_URI`
+```bash
+FOR Linux/Mac
+
+export CLIENT_ID="your_client_id"
+export CLIENT_SECRET="your_client_secret"
+export REDIRECT_URI="http://localhost:8000"
+```
+```bash
+FOR Windows
+
+set CLIENT_ID="your_client_id"
+set CLIENT_SECRET="your_client_secret"
+set REDIRECT_URI="http://localhost:8000"
+
+```
+
+### Step 6: Authenticate
+1. Run the main.py script to authenticate your Spotify account: `python main.py`
+2. Follow the authentication prompts to authorize the application with your Spotify account.
+
+### Step 7: Run the Application
+1. Once authenticated, you can run the main application: `python main.py`
 
 
 <a name="contribution-guidelines"></a>
